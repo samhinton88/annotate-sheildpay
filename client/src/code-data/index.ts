@@ -1,5 +1,6 @@
 
-export const ifElse = `const ifElse = (array) => {
+export const ifElse = `// array => [5,4,3,2,1]
+const ifElse = (array) => {
  const len = 5;
  let result;
 
@@ -22,14 +23,16 @@ export const ifElse = `const ifElse = (array) => {
  return result;
 }`;
 
-export const whatHappensWhenYouCompareAnArray = `const whatHappensWhenYouCompareAnArray = array => {
+export const whatHappensWhenYouCompareAnArray = `// array => [5,4,3,2,1]
+const whatHappensWhenYouCompareAnArray = array => {
   const huh = array > 0;
 
   return huh;
 }
 `
 
-export const sumWithBasicForLoop = `const sumWithBasicForLoop = (array) => {
+export const sumWithBasicForLoop = `// array => [5,4,3,2,1]
+const sumWithBasicForLoop = (array) => {
   let sum = 0;
   
   for (let i = 0; i < array.length; i++) {
@@ -40,7 +43,8 @@ export const sumWithBasicForLoop = `const sumWithBasicForLoop = (array) => {
 }
 `;
 
-export const insertionSort = `const insertionSort = (array) => {
+export const insertionSort = `// // array => [5,4,3,2,1]
+const insertionSort = (array) => {
   // main loop
   for (let j = 1; j < array.length; j++) {
     const key = array[j];
