@@ -21,9 +21,9 @@ cd server && yarn && yarn dev
 cd client && yarn && yarn start
 ```
 
+The application will now be available at [3000](http://localhost:3000/).
+
 ### Run the client tests
 ```sh
 cd client && yarn test
 ```
-
-The application will now be available at [3000](http://localhost:3000/).
